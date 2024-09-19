@@ -1,0 +1,20 @@
+# YOLOv8 Person Detection Configuration
+
+# Path to the dataset root directory
+path: /content/drive/MyDrive/yolo/person
+
+# Paths to images and labels for training and validation
+train: 
+  images: /content/drive/MyDrive/yolo/person/images/train
+  labels: /content/drive/MyDrive/yolo/person/labels/train
+
+val: 
+  images: /content/drive/MyDrive/yolo/person/images/train
+  labels: /content/drive/MyDrive/yolo/person/labels/train
+
+# Number of classes
+nc: 1
+names: ['person']
+
+# Optional: Other settings
+weights: yolov8n.pt  # Pre-trained weights to start from
